@@ -1082,7 +1082,7 @@ impl View for CloudModeV2SlashCommandView {
             OffsetPositioning::offset_from_save_position_element(
                 row_position_id,
                 vec2f(SIDECAR_GAP, 0.),
-                PositionedElementOffsetBounds::Unbounded,
+                PositionedElementOffsetBounds::WindowByPosition,
                 PositionedElementAnchor::BottomRight,
                 ChildAnchor::BottomLeft,
             ),
